@@ -12,7 +12,7 @@ int main(){
 		int last = a[i] % 10 ;
 		num += last*((int)pow(10,power));
 		--power ;
-		
+
     }
 	if(num % 10 == 0)
 		printf("Yes") ;
